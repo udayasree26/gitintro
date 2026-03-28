@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
-public class Basic2 {
+public class Basic3 {
 
 	
 		// TODO Auto-generated method stub
