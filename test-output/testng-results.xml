@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-07T06:42:02 IST" name="Suite" finished-at="2026-01-07T06:42:12 IST" duration-ms="10225">
+    <groups>
+    </groups>
+    <test started-at="2026-01-07T06:42:02 IST" name="Test" finished-at="2026-01-07T06:42:12 IST" duration-ms="10225">
+      <class name="Testng.Basic">
+        <test-method is-config="true" signature="login()[pri:0, instance:Testng.Basic@44c03695]" started-at="2026-01-07T06:42:02 IST" name="login" finished-at="2026-01-07T06:42:07 IST" duration-ms="5419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="tooltip()[pri:1, instance:Testng.Basic@44c03695]" started-at="2026-01-07T06:42:07 IST" name="tooltip" finished-at="2026-01-07T06:42:10 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tooltip -->
+        <test-method signature="tooltip2()[pri:2, instance:Testng.Basic@44c03695]" started-at="2026-01-07T06:42:10 IST" name="tooltip2" finished-at="2026-01-07T06:42:12 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tooltip2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Testng.Basic@44c03695]" started-at="2026-01-07T06:42:12 IST" name="logout" finished-at="2026-01-07T06:42:12 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Testng.Basic -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
