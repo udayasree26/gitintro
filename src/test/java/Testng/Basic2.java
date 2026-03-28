@@ -99,11 +99,25 @@ public class Basic2 {
 				act=new Actions(driver);
 				act.moveToElement(button).perform();
 				Thread.sleep(2000);
+				
+				
 		
 		
 		
 
 			}
+			
+			@Test(priority=7)
+			void tooltip7() throws InterruptedException {
+				
+				wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+				WebElement button=driver.findElement(By.id("toolTipTextField"));
+				wait.until(ExpectedConditions.visibilityOf(button));
+				act=new Actions(driver);
+				act.moveToElement(button).perform();
+				Thread.sleep(2000);
+		
+}
 }
 
 
